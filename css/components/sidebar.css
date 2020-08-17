@@ -1,0 +1,86 @@
+.sidebar {
+    float: left;
+    width: 178px;
+    padding-top: 45px;
+    padding-right: 10px;
+}
+
+.nav-menu{
+   padding: 0;
+   margin: 0;
+   list-style: none;
+}
+ 
+.nav-menu__item {
+    margin-bottom: 27px;
+}
+
+.nav-menu__link{
+    text-decoration: none;
+    display: inline-block;
+}
+   
+.nav-menu__icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 17px;
+    height: 18px;
+}
+   
+.nav-menu__icon-main {
+    background: url('../../img/icons/main.png') 50% 50% no-repeat;
+    width: 17px;
+}
+   
+.nav-menu__icon-main--black {
+    background: url('../../img/icons/main_1.png');
+}
+   
+.nav-menu__icon-review {
+    background: url('../../img/icons/feed.png') 50% 50% no-repeat;
+    width: 20px;
+}
+   
+.nav-menu__icon-team {
+    background: url('../../img/icons/team.png') 50% 50% no-repeat;
+    width: 23px;
+}
+   
+.nav-menu__link:hover .nav-menu__icon-main {
+    background: url('../../img/icons/main_1.png');
+}
+   
+.nav-menu__link:hover .nav-menu__icon-review {
+    background: url('../../img/icons/feed_1.png');
+}
+   
+.nav-menu__icon-review--black {
+    background: url('../../img/icons/feed_1.png');
+}
+   
+.nav-menu__link:hover .nav-menu__icon-team {
+    background: url('../../img/icons/team_1.png');
+}
+   
+.nav-menu__icon-team--black {
+    background: url('../../img/icons/team_1.png');
+}
+   
+.nav-menu__text {
+   color: #4b73b5;
+   text-transform: uppercase;
+   font-size: 12px;
+   font-weight: bold;
+   display: inline-block;
+   vertical-align: middle;  
+   max-width: 122px;
+   letter-spacing: 1px;
+}
+   
+.nav-menu__text--black {
+    color: #221f1f;
+}
+   
+.nav-menu__link:hover .nav-menu__text{
+    color: #221f1f;
+}

@@ -1,0 +1,19 @@
+/* Настройки лейаута */
+@import "css/layout/normalize.css";
+@import "css/layout/fonts.css";
+@import "css/layout/base.css";
+
+/* Компоненты */
+@import "css/components/header.css";
+@import "css/components/sidebar.css";
+@import "css/components/form.css";
+@import "css/components/main-content.css";
+@import "css/components/footer.css";
+@import "css/components/breadcrumbs.css";
+
+/* Страницы */
+@import "css/components/about.css";
+@import "css/components/reviews.css";
+@import "css/components/crew.css";
+@import "css/components/welcome.css";
+ 

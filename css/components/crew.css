@@ -1,0 +1,117 @@
+.crew {
+    list-style: none;
+}
+   
+.crew-image {
+    position: relative;
+    margin-bottom: 15px;
+}
+   
+.crew__pic {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+   
+.crew-image__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}
+   
+.crew__member {
+    display: inline-block;
+    width: 290px;
+    vertical-align: top;
+    text-align: center;
+    margin-bottom: 47px;
+}
+   
+.crew__name {
+    font-size: 18px;
+    color: #221f1f;
+    font-weight: bold;    
+         
+}
+   
+.crew__position {
+    font-size: 14px;
+    font-weight: bold;
+    color: #4b73b5;
+}
+   
+.crew__content {
+    font-size: 14px;
+    width: 265px;
+    padding-left: 15px;
+}
+ 
+.partners {
+    margin-bottom: 32px;
+}
+.partners__title {
+    font-size: 49px;
+    font-weight: bold;
+    color: #221f1f;
+    margin-top: 0;
+    margin-bottom: 38px;
+}
+   
+.partners__list {
+    list-style: none;
+}
+   
+.partners__item {
+    float: left;
+    width: 212px;
+    margin-bottom: 53px;
+    margin-left: 57px;
+    height: 75px;
+}
+   
+.partners__link {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+}
+   
+.partners__image {
+    display: block;
+    position: absolute; 
+    max-width: 100%;
+    max-height: 100%;
+    top: 44%;
+    transform: translateY(-50%);  
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray; /* IE 6-9 */
+    transition: all 1s;
+}
+   
+.partners__image:hover {
+    -webkit-filter: none;
+    -moz-filter: none;
+    -ms-filter: none;
+    -o-filter: none;
+    filter: none;
+    filter: none; /* IE 6-9 */
+}
+   
+.partners__item_middle .partners__image {
+    left: 54%;
+    transform: translate(-50%, -50%);
+}
+   
+.partners__item_right .partners__image {
+    right: 0;
+}

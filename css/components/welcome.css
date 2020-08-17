@@ -1,0 +1,66 @@
+.wrapper_welcome {
+    background: url('../../img/bg/intro.jpg') center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    min-width: initial;
+    position: relative;
+  }
+
+  .wrapper_welcome:before {
+    /*content: "";*/
+    display: inline-block;
+    height: 100%;
+    width: 0;
+    vertical-align: middle;
+  }
+
+  .welcome {
+    width: 210px;
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+  }
+
+  .welcome__link {
+    display: block;
+    padding: 10px 10px;
+    border: 1px solid #1c5bc3;
+    border-radius: 3px;
+    margin-top: 35px;
+    text-decoration: none;
+  }
+
+  .welcome__link:hover {
+    background: #1c5bc3;
+  }
+
+  .welcome__text {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;  
+    color: #1c5bc4;
+    letter-spacing: 2px;
+  }
+  .welcome__link:hover .welcome__text {
+    color: #ffffff;
+  }
+  .welcome__icon {
+    display: inline-block;
+    height: 14px;
+    width: 15px;
+    vertical-align: middle;
+    background: url('../../img/icons/intro.png') no-repeat;
+    
+  }
+  .welcome__link:hover .welcome__icon {
+    background: url('../../img/icons/intro-hov.png') no-repeat;
+  }
+ 
+  
